@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:padding = "10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IndicatorProgressBar展示效果"
+        android:textSize="20sp"
+        />
+
+    <com.mproject.exercisedemo.progressdemo.view.IndicatorProgressBar
+        xmlns:indicator="http://schemas.android.com/apk/res/com.mproject.exercisedemo.progressdemo"
+        android:id="@+id/ip_show"
+        style="@style/Widget.ProgressBar.IndicatorProgressBarStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:paddingLeft="25dip"
+        android:paddingRight="25dip"
+        indicator:offset="3dip"
+        indicator:textSize="13sp"  />
+
+</LinearLayout>

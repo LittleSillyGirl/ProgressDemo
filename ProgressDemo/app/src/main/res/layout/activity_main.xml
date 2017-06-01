@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="状态的输入："
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/et_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入数字"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:textColorHint="@android:color/holo_green_light"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_indicator"
+        android:padding = "10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IndicatorProgressBar展示"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
